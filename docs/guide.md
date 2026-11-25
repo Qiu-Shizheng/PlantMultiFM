@@ -49,3 +49,5 @@ plantmultifm predict --panel rice.npz --modality atac --matrix binary_peaks.npz 
 
 Dense inputs use NumPy `.npy`; sparse inputs use SciPy `sparse.save_npz`. No cell labels, target-assay depth or network connection are required for inference.
 
+For a complete run on public count data, see the [Arabidopsis root atlas example](root-atlas.md).
+

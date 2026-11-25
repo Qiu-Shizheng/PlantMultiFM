@@ -2,12 +2,12 @@
 
 Predict transcript detection from chromatin accessibility, predict accessibility from RNA, or embed individual plant cells in 256 dimensions. This Python package runs the frozen PlantMultiFM encoder and molecular readouts on CPU using NumPy and SciPy.
 
-[User guide](docs/guide.md) | [中文指南](docs/guide.zh.md) | [Pretrained panels and checksums](https://github.com/Qiu-Shizheng/PlantMultiFM/releases/tag/v0.1.0)
+[User guide](docs/guide.md) | [Worked example: root atlas](docs/root-atlas.md) | [Pretrained panels and checksums](https://github.com/Qiu-Shizheng/PlantMultiFM/releases/tag/v0.1.0)
 
 ## Install and run
 
 ```bash
-python -m pip install "git+https://github.com/Qiu-Shizheng/PlantMultiFM.git@v0.1.0"
+python -m pip install "git+https://github.com/Qiu-Shizheng/PlantMultiFM.git@v0.1.1"
 curl -fLO https://github.com/Qiu-Shizheng/PlantMultiFM/releases/download/v0.1.0/arabidopsis.npz
 plantmultifm features --panel arabidopsis.npz --modality rna --output genes.txt
 ```
